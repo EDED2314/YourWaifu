@@ -10,9 +10,6 @@ import os
 load_dotenv()
 
 
-TEST = 958488149724635146
-
-
 class Waifu(commands.Bot):
     def __init__(self):
         super().__init__(intents=discord.Intents.all(), command_prefix="waifu.")
